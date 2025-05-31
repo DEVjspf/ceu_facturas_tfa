@@ -12,15 +12,18 @@ El proyecto desarrolla un sistema para extraer datos estructurados de facturas e
 * Fragmentación semántica y generación de embeddings para búsqueda eficiente.
 * Integración con modelos LLM para extracción estructurada de datos.
 * Validación y evaluación con métricas de precisión (F1, recall).
-* Documentación y análisis en formato PDF.
-* Resultados de evaluación y métricas.
-* Archivos de pruebas y datos de entrada (ejemplo facturas).
-* Licencia open source GNU GPL v3.
+* Documentación: Memoria en PDF con análisis de requisitos, diagramas, diseño, pruebas y evaluación.
+* Datos de entrada: Conjunto de 4 a 6 facturas eléctricas en formato PDF para pruebas.
+* Hojas de cálculo: Resultados de evaluación exportados en CSV y Excel.
+* Licencia: Proyecto bajo licencia GNU GPL v3.
 
 ## ⚙️ Cómo ejecutar el proyecto
 
 1. Clonar el repositorio.
 2. Instalar dependencias con pip install -r  [requirements.txt](https://github.com/DEVjspf/ceu_facturas_tfa/blob/main/requirements.txt)
+```
+pip install -r requirements.txt
+```
 
 Ejecutar el notebook principal dev_facturas.ipynb que contiene:
 

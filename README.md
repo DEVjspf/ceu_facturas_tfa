@@ -52,7 +52,7 @@ El esquema de datos validado con Pydantic es el siguiente:
 }
 ```
 ## 📄 Licencia 
-
+Este proyecto está bajo la Licencia [LICENSE.txt](https://github.com/DEVjspf/ceu_facturas_tfa/blob/main/LICENSE.txt) consulta el archivo para mas detalles 
 
 ## ✒️ Autores 
 * Maria Angel Lobon Gonzalo

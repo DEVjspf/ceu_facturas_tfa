@@ -1,0 +1,28 @@
+# Manipulación y análisis de datos
+pandas
+numpy
+
+# Lectura y extracción de texto de PDFs
+PyMuPDF
+
+# Validación de datos
+pydantic
+
+# Modelos de embeddings y NLP
+sentence-transformers
+transformers
+torch
+
+# Búsqueda vectorial
+chromadb
+faiss-cp
+
+# Peticiones HTTP para API
+requests
+
+# Métricas y evaluación
+scikit-learn
+openpyxl  # Para exportar Excel
+
+# Opcional, para interfaz si usas Streamlit
+streamlit

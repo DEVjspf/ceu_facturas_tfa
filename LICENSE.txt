@@ -1,0 +1,17 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2024 Máster de Formación Permanente en Inteligencia Artificial y Big Data
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+- The freedom to use the software for any purpose.
+- The freedom to study and modify the source code to suit their needs.
+- The freedom to distribute copies of the original or modified software, always under the same license.
+- Access to the source code to ensure transparency and freedom.
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+
+END OF TERMS AND CONDITIONS

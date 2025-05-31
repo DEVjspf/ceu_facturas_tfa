@@ -24,12 +24,39 @@ El proyecto desarrolla un sistema para extraer datos estructurados de facturas e
 ```
 pip install -r requirements.txt
 ```
+3. Extracción de texto desde PDFs. Coloca los PDFs de las facturas en la carpeta data/facturas/.
 
-Ejecutar el notebook principal dev_facturas.ipynb que contiene:
+4. Ejecuta el notebook principal dev_facturas.ipynb que realiza:
 
 * Extracción de texto desde PDFs.
-* Procesamiento y generación de embeddings.
-* Consulta y respuesta con modelos generativos.
-* Validación y evaluación de resultados.
+* Fragmentación semántica y generación de embeddings.
+* Almacenamiento en ChromaDB.
+* Consulta y extracción estructurada mediante modelos LLM.
+* Validación con Pydantic.
+* Evaluación con métricas F1 y recall.
+* Exportación de resultados a CSV y Excel.
 
+## 🔩 Estructura JSON y esquema Pydantic
+
+El esquema de datos validado con Pydantic es el siguiente:
+```
+{
+  "numero_factura": "string",
+  "fecha_emision": "YYYY-MM-DDTHH:MM:SS",
+  "periodo_inicio": "YYYY-MM-DDTHH:MM:SS",
+  "periodo_fin": "YYYY-MM-DDTHH:MM:SS",
+  "consumo_total_kwh": float,
+  "potencia_punta_kw": float,
+  "potencia_valle_kw": float,
+  "importe_total": float
+}
+```
+## 📄 Licencia 
+
+
+## ✒️ Autores 
+* Maria Angel Lobon Gonzalo
+* Elisban Montañez Montalvo
+* J. Samuel Porcayo Fraustro
+* Cesar Damian Celis
 

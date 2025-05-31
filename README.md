@@ -20,7 +20,7 @@ El proyecto desarrolla un sistema para extraer datos estructurados de facturas e
 ## ⚙️ Cómo ejecutar el proyecto
 
 1. Clonar el repositorio.
-2. Instalar dependencias con pip install -r requirements.txt (ver notebook para detalles).
+2. Instalar dependencias con pip install -r  [requirements.txt](https://github.com/DEVjspf/ceu_facturas_tfa/blob/main/requirements.txt)
 
 Ejecutar el notebook principal dev_facturas.ipynb que contiene:
 
@@ -28,3 +28,5 @@ Ejecutar el notebook principal dev_facturas.ipynb que contiene:
 * Procesamiento y generación de embeddings.
 * Consulta y respuesta con modelos generativos.
 * Validación y evaluación de resultados.
+
+
